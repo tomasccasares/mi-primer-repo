@@ -9,3 +9,4 @@ def saludo(request):
 
 def otro_saludo(request, nombre):
     return HttpResponse(f'hola {nombre.capitalize()}! como estas?')
+
